@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+tanggal : 21 april 2022
+nim : 10119111
+nama : fauzi fikrinullah
+kelas : if-3
+ -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="23dp"
+        android:backgroundTint="#3DDB85"
+        android:text="LOGOUT"
+        android:textSize="15dp"></Button>
+
+    <Button
+        android:id="@+id/btnProfile"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="201dp"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/android_crop3"
+        android:text="Profile"
+        android:textColor="#3DDB85"
+        android:textSize="30dp"
+        app:strokeColor="#3DDB85"
+        app:strokeWidth="1dp"
+        >
+
+
+    </Button>
+</RelativeLayout>
